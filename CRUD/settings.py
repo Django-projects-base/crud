@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'CRUD.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'cloudproject',
+        'NAME': 'crud',
         'USER': 'clouduser',
         'PASSWORD': 'password',
         'HOST': '127.0.0.1',
